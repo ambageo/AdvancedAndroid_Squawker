@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements
                 // authorKey: Ex. "key_test"
                 // message: Ex. "Hello world"
                 // date: Ex. 1484358455343
-            // TODO (3) As part of the new Service - If there is message data, get the data using
+            // completed (3) As part of the new Service - If there is message data, get the data using
             // the keys and do two things with it :
                 // 1. Display a notification with the first 30 character of the message
                 // 2. Use the content provider to insert a new message into the local database
