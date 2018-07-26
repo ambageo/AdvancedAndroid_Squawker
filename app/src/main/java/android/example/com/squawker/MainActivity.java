@@ -89,8 +89,8 @@ public class MainActivity extends AppCompatActivity implements
         getSupportLoaderManager().initLoader(LOADER_ID_MESSAGES, null, this);
 
 
-        // TODO (1) Make a new Service in the fcm package that extends from FirebaseMessagingService.
-            // TODO (2) As part of the new Service - Override onMessageReceived. This method will
+        // completed (1) Make a new Service in the fcm package that extends from FirebaseMessagingService.
+            // completed (2) As part of the new Service - Override onMessageReceived. This method will
             // be triggered whenever a squawk is received. You can get the data from the squawk
             // message using getData(). When you send a test message, this data will include the
             // following key/value pairs:
