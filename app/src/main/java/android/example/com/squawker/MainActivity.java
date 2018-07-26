@@ -88,6 +88,10 @@ public class MainActivity extends AppCompatActivity implements
 
         // TODO (1) Get the test data here from the extras bundle that came with this intent.
         // To confirm that the data was passed in, make sure to show the data in a log statement.
+        Bundle extras= getIntent().getExtras();
+        if(extras!=null && extras.containsKey("name")){
+            Log.d("LOG_TAG", "Key contained with value: " + extras.getString("name"));
+        }
 
     }
 
